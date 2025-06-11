@@ -41,9 +41,10 @@ const Hero = () => {
               <div className="relative">
                 <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-2xl">
                   <img 
-                    src="/profile.jpg" 
+                    src="/img/camisa negra2.png" 
                     alt="Anthony Terrazas" 
                     className="w-full h-full object-cover"
+                    style={{ objectPosition: 'center top' }}
                   />
                 </div>
                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500/20 to-purple-500/20" />
